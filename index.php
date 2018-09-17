@@ -21,6 +21,11 @@ $map->get('text', '/text', function ($request, $response) {
     return $response;
 });
 
+$map->get('test', '/test', function ($request, $response) {
+    $response->getBody()->write("Hello World");
+    return $response;
+});
+
 function getServerInfo() {
     try
     {
