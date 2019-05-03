@@ -7,7 +7,7 @@ use xPaw\MinecraftPingException;
 
 try
 {
-    $Query = new MinecraftPing( 'planethouki.ddns.net', 25565 );
+    $Query = new MinecraftPing( 'houkiserver.com', 25565 );
     
     // print_r( $Query->Query() );
     $data = $Query->Query();
